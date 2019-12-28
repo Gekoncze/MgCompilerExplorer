@@ -53,4 +53,8 @@ public class Explorer {
         }
         return path;
     }
+
+    public Node getLinkTarget(Node link){
+        return locator.findLinkTarget(link);
+    }
 }

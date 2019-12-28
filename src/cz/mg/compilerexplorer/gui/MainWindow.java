@@ -10,8 +10,8 @@ import java.awt.event.WindowEvent;
 
 
 public class MainWindow extends JFrame {
-    public static final int WIDTH = 800;
-    public static final int HEIGHT = 600;
+    public static final int WIDTH = 1366;
+    public static final int HEIGHT = 768;
     public static final int PADDING = 8;
     public static final String TITLE = "Compiler Explorer";
 

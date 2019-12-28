@@ -14,7 +14,7 @@ public class Test {
         System.out.print("Compiling... ");
 
         Compiler compiler = new Compiler();
-        compiler.getTasks().getTasks().addLast(new CompileProjectTask(
+        compiler.getTasks().getMainTasks().addLast(new CompileProjectTask(
                 compiler.getEntities(),
                 new FilePath(new Text("TestProject.mg", ""))
         ));

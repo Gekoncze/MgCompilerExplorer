@@ -1,9 +1,11 @@
 ### DONE ### -----------------------------------------------------------------------------------------------------------
-
+adaptation to compiler changes + fixed link target path
 
 ### NOW ### ------------------------------------------------------------------------------------------------------------
-consider moving the cache collections into MgCollections
-
+name differs when accessing link ... needs to first find the node and open the new one
+add Named interface if not yet, make it compiler global
+    then add 3rd name to lists - for the actual object
+    decide what name to display in path
 
 ### SOON ### -----------------------------------------------------------------------------------------------------------
 
@@ -11,6 +13,7 @@ consider moving the cache collections into MgCollections
 ### LATER ### ----------------------------------------------------------------------------------------------------------
 context menu for additional actions
 right/left arrow - show / hide children of selected node
+consider moving the cache collections into MgCollections
 
 
 ### IDEAS ### ----------------------------------------------------------------------------------------------------------

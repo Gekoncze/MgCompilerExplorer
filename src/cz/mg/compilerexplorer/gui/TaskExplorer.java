@@ -20,8 +20,10 @@ public class TaskExplorer extends NodeExplorer {
     @Override
     public void openLink(Node node) {
         if(node.getElement() instanceof Entity){
-            entityExplorer.open(node);
+            entityExplorer.openLink(node);
         } else if(node.getElement() instanceof Task){
+            Node target = explorer.getLinkTarget(node);
+            if(target != null) node = target;
             open(node);
         }
     }
