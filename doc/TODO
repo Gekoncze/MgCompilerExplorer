@@ -1,13 +1,15 @@
 ### DONE ### -----------------------------------------------------------------------------------------------------------
-adaptation to compiler changes + fixed link target path
+
 
 ### NOW ### ------------------------------------------------------------------------------------------------------------
-name differs when accessing link ... needs to first find the node and open the new one
 add Named interface if not yet, make it compiler global
     then add 3rd name to lists - for the actual object
     decide what name to display in path
 
+
 ### SOON ### -----------------------------------------------------------------------------------------------------------
+allow open standard nodes like strings or booleans to show their values
+    or display them next to it, or both
 
 
 ### LATER ### ----------------------------------------------------------------------------------------------------------
